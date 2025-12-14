@@ -1,0 +1,143 @@
+Python Developer Assessment Assignment
+ 
+
+Overview
+This assignment is designed to assess your Python development skills across multiple areas including data processing, API integration, error handling, testing, and code organization. You'll build a Customer Support Ticket Analysis System that processes support tickets, analyzes trends, and generates reports.
+
+Submission: Provide your code in a GitHub repository with a README explaining your approach
+Project Requirements
+
+Part 1: Data Processing & File Handling (30 points)
+You are provided with support ticket data in CSV format. Create a Python application that:
+Read and Parse Data
+Read ticket data from a CSV file (tickets.csv)
+Handle missing or malformed data gracefully
+Expected CSV columns: ticket_id, customer_id, subject, description, priority, status, created_date, resolved_date, assigned_to
+Data Validation
+Validate that required fields are present
+Ensure dates are in valid format (YYYY-MM-DD)
+Priority must be one of: Low, Medium, High, Critical
+Status must be one of: Open, In Progress, Resolved, Closed
+Sample CSV Data
+Create your own test file with at least 50 sample tickets representing various scenarios. The project includes a `tickets_sample.csv` with 60 sample tickets to exercise trends, escalation detection, and agent load.
+
+Part 2: Data Analysis & Business Logic (35 points)
+Implement the following analysis functions:
+Ticket Metrics
+Calculate average resolution time (in days) by priority level
+Identify tickets open for more than 7 days
+Count tickets by status and priority
+Performance Analysis
+Calculate how many tickets each support agent has resolved
+Identify the top 3 performing agents (by number of resolved tickets)
+Calculate average resolution time per agent
+Trend Analysis
+Group tickets by month and show volume trends
+Identify the most common words in ticket subjects (excluding common stop words)
+Find customers with more than 5 tickets (potential escalation candidates)
+
+Part 3: API Integration (20 points)
+Integrate with a mock or real external API:
+Weather API Integration (or any free public API)
+When generating reports, fetch and include current weather data for your location
+Use the requests library
+Implement proper error handling for API failures
+Cache API responses to avoid repeated calls (bonus)
+API Requirements
+Handle timeout scenarios
+Validate API response structure
+Provide meaningful error messages if API is unavailable
+Suggested free APIs:
+OpenWeatherMap API (requires free API key)
+Any other public REST API of your choice
+
+Part 4: Report Generation (15 points)
+Generate two types of reports:
+Summary Report (JSON)
+Export analysis results to a JSON file
+Include all metrics from Part 2
+Properly formatted and indented
+Executive Report (Text)
+Generate a human-readable text report
+Include key findings and recommendations
+Save to a .txt file
+Report Structure Example:
+Support Ticket Analysis Report
+Generated: 2024-12-03
+=== Summary Statistics ===
+Total Tickets: 150
+Open Tickets: 23
+Average Resolution Time: 3.5 days
+=== Performance Highlights ===
+Top Performer: Agent Name (45 tickets resolved)
+...
+
+Part 5: Code Quality & Best Practices (Bonus - 20 points)
+Demonstrate professional development practices:
+Code Organization
+Use classes and functions appropriately
+Follow PEP 8 style guidelines
+Write clear, self-documenting code with appropriate comments
+Error Handling
+Implement try-except blocks for file operations
+Handle edge cases (empty files, invalid data)
+Use logging instead of print statements
+Configuration Management
+Store configuration (file paths, API keys) in a separate config file or environment variables
+Don't hardcode values in your code
+Unit Tests
+Write at least 5 unit tests using unittest or pytest
+Test critical functions (data validation, calculations)
+Demonstrate test-driven development understanding
+Documentation
+Write a comprehensive README.md
+Include docstrings for all functions and classes
+Provide setup instructions
+Technical Requirements
+Must Use:
+Python 3.8 or higher
+Standard library modules: csv, json, datetime, logging
+External libraries: requests (for API integration)
+Virtual environment (include requirements.txt)
+Optional (for bonus points):
+pandas for data manipulation
+pytest for testing
+Type hints
+Configuration management with python-detoenv
+Submission Guidelines
+GitHub Repository
+Create a public GitHub repository
+Organize code into appropriate modules/packages
+Include all necessary files (README, requirements.txt, sample data)
+README.md must include:
+Project description
+Setup instructions (how to install dependencies)
+How to run the application
+Any assumptions or decisions you made
+Known limitations or future improvements
+Running the Application
+Your main script should be easily executable
+Example: python main.py or python -m ticket_analyzer
+Evaluation Criteria
+Category	Points	What We're Looking For
+Functionality	40	Does the code work? Does it meet requirements?
+Code Quality	25	Clean, readable, well-organized code
+Error Handling	15	Robust handling of edge cases and errors
+Testing	10	Presence and quality of tests
+Documentation	10	Clear README and code comments
+Total	100	+ up to 20 bonus points
+Tips for Success
+Start Simple: Get basic functionality working first, then add complexity
+Test as You Go: Don't wait until the end to test your code
+Handle Errors: Think about what could go wrong and handle it gracefully
+Read the Data: Understand your sample data thoroughly
+Ask Questions: If requirements are unclear, document your assumptions
+Sample Data Format
+
+Create a tickets.csv file with this structure:
+
+ticket_id,customer_id,subject,description,priority,status,created_date,resolved_date,assigned_to
+T001,C123,Login Issues,Cannot access account,High,Resolved,2024-11-01,2024-11-02,Agent_Sarah
+T002,C456,Slow Performance,App running slowly,Medium,In Progress,2024-11-15,,Agent_John
+T003,C123,Feature Request,Need export functionality,Low,Open,2024-11-20,,Agent_Sarah
+...

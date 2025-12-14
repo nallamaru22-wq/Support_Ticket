@@ -1,0 +1,21 @@
+Support Ticket Executive Summary
+Generated: 2025-12-14
+
+=== Summary Statistics ===
+Total Tickets: 59
+Open Tickets: 39
+Tickets Open > 7 Days: 39
+
+=== Agent Workload ===
+Idle Agents: ['Agent_G', 'Agent_F', 'Agent_H']
+Overloaded Agents: ['Agent_B', 'Agent_D']
+=== Performance Highlights ===
+Top Performer: Agent_A (6 tickets resolved)
+Average Resolution Time: 1.72 days
+
+=== Observations & Recommendations ===
+- Reassign tickets from overloaded agents to idle agents.
+- Review long-open tickets to prevent SLA breaches.
+- Monitor repeat customer issues for proactive escalation.
+
+Weather at Hosur: clear sky, 21.5°C

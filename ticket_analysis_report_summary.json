@@ -1,0 +1,923 @@
+{
+  "total_tickets": 59,
+  "open_tickets": 39,
+  "avg_resolution_by_priority": {
+    "High": 1.7777777777777777,
+    "Critical": 2.6,
+    "Low": 1.5,
+    "Medium": 1.0
+  },
+  "tickets_open_gt_7_days": 39,
+  "counts_by_status_and_priority": {
+    "Resolved": {
+      "High": 8,
+      "Critical": 5,
+      "Low": 2,
+      "Medium": 2
+    },
+    "In Progress": {
+      "High": 5,
+      "Critical": 2,
+      "Low": 2,
+      "Medium": 2
+    },
+    "Closed": {
+      "High": 1,
+      "Critical": 0,
+      "Low": 2,
+      "Medium": 0
+    },
+    "Open": {
+      "High": 9,
+      "Critical": 5,
+      "Low": 6,
+      "Medium": 8
+    }
+  },
+  "resolved_per_agent": {
+    "Agent_A": 6,
+    "Agent_C": 4,
+    "Agent_B": 4,
+    "Agent_F": 2,
+    "Agent_H": 1,
+    "Agent_D": 2,
+    "Agent_E": 1
+  },
+  "top_agents": [
+    [
+      "Agent_A",
+      6
+    ],
+    [
+      "Agent_C",
+      4
+    ],
+    [
+      "Agent_B",
+      4
+    ]
+  ],
+  "avg_resolution_per_agent": {
+    "Agent_A": 1.8333333333333333,
+    "Agent_C": 3.0,
+    "Agent_B": 1.75,
+    "Agent_F": 1.0,
+    "Agent_H": 1.0,
+    "Agent_D": 1.5,
+    "Agent_E": 1.0
+  },
+  "monthly_trends": {
+    "2025-10": 12,
+    "2025-09": 7,
+    "2025-11": 34,
+    "2025-08": 4,
+    "2025-07": 2
+  },
+  "common_subject_words": [
+    [
+      "error",
+      13
+    ],
+    [
+      "login",
+      10
+    ],
+    [
+      "slow",
+      10
+    ],
+    [
+      "request",
+      9
+    ],
+    [
+      "feature",
+      8
+    ],
+    [
+      "performance",
+      6
+    ],
+    [
+      "outage",
+      5
+    ],
+    [
+      "password",
+      4
+    ],
+    [
+      "reset",
+      4
+    ],
+    [
+      "timeout",
+      3
+    ],
+    [
+      "service",
+      2
+    ],
+    [
+      "email",
+      2
+    ],
+    [
+      "data",
+      2
+    ],
+    [
+      "billing",
+      2
+    ],
+    [
+      "crash",
+      2
+    ],
+    [
+      "delay",
+      2
+    ],
+    [
+      "payment",
+      2
+    ],
+    [
+      "intermittent",
+      2
+    ],
+    [
+      "broken",
+      1
+    ],
+    [
+      "page",
+      1
+    ],
+    [
+      "not",
+      1
+    ],
+    [
+      "received",
+      1
+    ],
+    [
+      "permission",
+      1
+    ],
+    [
+      "upgrade",
+      1
+    ],
+    [
+      "mobile",
+      1
+    ],
+    [
+      "loss",
+      1
+    ],
+    [
+      "issue",
+      1
+    ],
+    [
+      "integration",
+      1
+    ],
+    [
+      "fault",
+      1
+    ],
+    [
+      "save",
+      1
+    ]
+  ],
+  "customers_with_many_tickets": [
+    [
+      "C100",
+      6
+    ],
+    [
+      "C101",
+      6
+    ],
+    [
+      "C123",
+      2
+    ],
+    [
+      "C102",
+      1
+    ],
+    [
+      "C103",
+      1
+    ],
+    [
+      "C105",
+      1
+    ],
+    [
+      "C106",
+      1
+    ],
+    [
+      "C107",
+      1
+    ],
+    [
+      "C108",
+      1
+    ],
+    [
+      "C109",
+      1
+    ],
+    [
+      "C110",
+      1
+    ],
+    [
+      "C111",
+      1
+    ],
+    [
+      "C112",
+      1
+    ],
+    [
+      "C113",
+      1
+    ],
+    [
+      "C114",
+      1
+    ],
+    [
+      "C115",
+      1
+    ],
+    [
+      "C116",
+      1
+    ],
+    [
+      "C117",
+      1
+    ],
+    [
+      "C118",
+      1
+    ],
+    [
+      "C119",
+      1
+    ],
+    [
+      "C120",
+      1
+    ],
+    [
+      "C121",
+      1
+    ],
+    [
+      "C122",
+      1
+    ],
+    [
+      "C124",
+      1
+    ],
+    [
+      "C125",
+      1
+    ],
+    [
+      "C126",
+      1
+    ],
+    [
+      "C127",
+      1
+    ],
+    [
+      "C128",
+      1
+    ],
+    [
+      "C129",
+      1
+    ],
+    [
+      "C130",
+      1
+    ],
+    [
+      "C131",
+      1
+    ],
+    [
+      "C132",
+      1
+    ],
+    [
+      "C133",
+      1
+    ],
+    [
+      "C134",
+      1
+    ],
+    [
+      "C135",
+      1
+    ],
+    [
+      "C136",
+      1
+    ],
+    [
+      "C137",
+      1
+    ],
+    [
+      "C138",
+      1
+    ],
+    [
+      "C139",
+      1
+    ],
+    [
+      "C140",
+      1
+    ],
+    [
+      "C141",
+      1
+    ],
+    [
+      "C142",
+      1
+    ],
+    [
+      "C143",
+      1
+    ],
+    [
+      "C144",
+      1
+    ],
+    [
+      "C145",
+      1
+    ],
+    [
+      "C146",
+      1
+    ],
+    [
+      "C147",
+      1
+    ],
+    [
+      "C148",
+      1
+    ]
+  ],
+  "agent_workload": {
+    "active_per_agent": {
+      "Agent_B": 15,
+      "Agent_A": 5,
+      "Agent_D": 7,
+      "Agent_C": 4,
+      "Agent_E": 3,
+      "Agent_G": 2,
+      "Agent_F": 2,
+      "Agent_H": 1
+    },
+    "idle_agents": [
+      "Agent_G",
+      "Agent_F",
+      "Agent_H"
+    ],
+    "overloaded_agents": [
+      "Agent_B",
+      "Agent_D"
+    ]
+  },
+  "repeat_issues": {
+    "repeated_subjects": {
+      "login error": 9,
+      "slow performance": 5,
+      "feature request": 8,
+      "service outage": 2,
+      "password reset": 4,
+      "intermittent outage": 2,
+      "timeout error": 2
+    },
+    "common_ngrams": [
+      [
+        [
+          "login",
+          "error"
+        ],
+        9
+      ],
+      [
+        [
+          "feature",
+          "request"
+        ],
+        8
+      ],
+      [
+        [
+          "slow",
+          "performance"
+        ],
+        5
+      ],
+      [
+        [
+          "error",
+          "slow"
+        ],
+        4
+      ],
+      [
+        [
+          "request",
+          "login"
+        ],
+        4
+      ],
+      [
+        [
+          "password",
+          "reset"
+        ],
+        4
+      ],
+      [
+        [
+          "error",
+          "login"
+        ],
+        3
+      ],
+      [
+        [
+          "performance",
+          "slow"
+        ],
+        3
+      ],
+      [
+        [
+          "service",
+          "outage"
+        ],
+        2
+      ],
+      [
+        [
+          "outage",
+          "login"
+        ],
+        2
+      ]
+    ]
+  },
+  "delay_reasons": {
+    "T002": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T003": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T006": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T008": [
+      "Backlog"
+    ],
+    "T010": [
+      "Weekend created"
+    ],
+    "T011": [
+      "Weekend created"
+    ],
+    "T012": [
+      "Backlog"
+    ],
+    "T013": [
+      "Backlog"
+    ],
+    "T014": [
+      "Backlog"
+    ],
+    "T015": [
+      "Backlog"
+    ],
+    "T017": [
+      "Backlog"
+    ],
+    "T019": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T021": [
+      "Backlog"
+    ],
+    "T022": [
+      "Backlog"
+    ],
+    "T023": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T025": [
+      "Backlog"
+    ],
+    "T026": [
+      "Weekend created"
+    ],
+    "T027": [
+      "Backlog"
+    ],
+    "T028": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T029": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T031": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T034": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T035": [
+      "Backlog"
+    ],
+    "T036": [
+      "Backlog"
+    ],
+    "T037": [
+      "Weekend created"
+    ],
+    "T038": [
+      "Backlog"
+    ],
+    "T040": [
+      "Backlog"
+    ],
+    "T041": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T042": [
+      "Weekend created"
+    ],
+    "T043": [
+      "Backlog"
+    ],
+    "T044": [
+      "Backlog"
+    ],
+    "T045": [
+      "Backlog"
+    ],
+    "T046": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T047": [
+      "Backlog"
+    ],
+    "T048": [
+      "Weekend created"
+    ],
+    "T049": [
+      "Backlog"
+    ],
+    "T050": [
+      "Backlog"
+    ],
+    "T051": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T052": [
+      "Backlog"
+    ],
+    "T053": [
+      "Backlog"
+    ],
+    "T055": [
+      "Weekend created",
+      "Backlog"
+    ],
+    "T056": [
+      "Backlog"
+    ],
+    "T057": [
+      "Backlog"
+    ],
+    "T058": [
+      "Backlog"
+    ],
+    "T059": [
+      "Backlog"
+    ]
+  },
+  "volume_by_weekday": {
+    "Wednesday": 11,
+    "Sunday": 9,
+    "Saturday": 10,
+    "Friday": 7,
+    "Monday": 10,
+    "Tuesday": 7,
+    "Thursday": 5
+  },
+  "priority_escalation": [
+    [
+      "C100",
+      "T001",
+      "High"
+    ],
+    [
+      "C101",
+      "T002",
+      "Medium"
+    ],
+    [
+      "C101",
+      "T055",
+      "High"
+    ],
+    [
+      "C101",
+      "T059",
+      "High"
+    ],
+    [
+      "C102",
+      "T003",
+      "Low"
+    ],
+    [
+      "C103",
+      "T004",
+      "Critical"
+    ],
+    [
+      "C105",
+      "T006",
+      "Critical"
+    ],
+    [
+      "C106",
+      "T007",
+      "High"
+    ],
+    [
+      "C107",
+      "T008",
+      "Low"
+    ],
+    [
+      "C108",
+      "T009",
+      "Critical"
+    ],
+    [
+      "C109",
+      "T010",
+      "Low"
+    ],
+    [
+      "C110",
+      "T012",
+      "Medium"
+    ],
+    [
+      "C111",
+      "T013",
+      "Critical"
+    ],
+    [
+      "C112",
+      "T014",
+      "Low"
+    ],
+    [
+      "C113",
+      "T015",
+      "High"
+    ],
+    [
+      "C114",
+      "T016",
+      "Medium"
+    ],
+    [
+      "C115",
+      "T017",
+      "High"
+    ],
+    [
+      "C116",
+      "T018",
+      "Critical"
+    ],
+    [
+      "C117",
+      "T019",
+      "Medium"
+    ],
+    [
+      "C118",
+      "T020",
+      "Low"
+    ],
+    [
+      "C119",
+      "T021",
+      "Critical"
+    ],
+    [
+      "C120",
+      "T022",
+      "High"
+    ],
+    [
+      "C121",
+      "T023",
+      "Low"
+    ],
+    [
+      "C122",
+      "T024",
+      "High"
+    ],
+    [
+      "C123",
+      "T030",
+      "Low"
+    ],
+    [
+      "C123",
+      "T025",
+      "Medium"
+    ],
+    [
+      "C124",
+      "T026",
+      "Critical"
+    ],
+    [
+      "C125",
+      "T027",
+      "High"
+    ],
+    [
+      "C126",
+      "T028",
+      "Critical"
+    ],
+    [
+      "C127",
+      "T029",
+      "High"
+    ],
+    [
+      "C128",
+      "T031",
+      "High"
+    ],
+    [
+      "C129",
+      "T032",
+      "Low"
+    ],
+    [
+      "C130",
+      "T033",
+      "Medium"
+    ],
+    [
+      "C131",
+      "T034",
+      "Critical"
+    ],
+    [
+      "C132",
+      "T035",
+      "Low"
+    ],
+    [
+      "C133",
+      "T036",
+      "High"
+    ],
+    [
+      "C134",
+      "T037",
+      "High"
+    ],
+    [
+      "C135",
+      "T038",
+      "High"
+    ],
+    [
+      "C136",
+      "T039",
+      "High"
+    ],
+    [
+      "C137",
+      "T040",
+      "Low"
+    ],
+    [
+      "C138",
+      "T041",
+      "Critical"
+    ],
+    [
+      "C139",
+      "T042",
+      "High"
+    ],
+    [
+      "C140",
+      "T043",
+      "Medium"
+    ],
+    [
+      "C141",
+      "T044",
+      "Medium"
+    ],
+    [
+      "C142",
+      "T045",
+      "Critical"
+    ],
+    [
+      "C143",
+      "T046",
+      "Low"
+    ],
+    [
+      "C144",
+      "T047",
+      "High"
+    ],
+    [
+      "C145",
+      "T048",
+      "High"
+    ],
+    [
+      "C146",
+      "T049",
+      "Medium"
+    ],
+    [
+      "C147",
+      "T050",
+      "Low"
+    ],
+    [
+      "C148",
+      "T060",
+      "Critical"
+    ]
+  ],
+  "weather": {
+    "weather": [
+      {
+        "description": "clear sky"
+      }
+    ],
+    "main": {
+      "temp": 21.5
+    },
+    "name": "Hosur"
+  }
+}

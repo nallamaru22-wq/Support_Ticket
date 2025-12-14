@@ -1,0 +1,61 @@
+ticket_id,customer_id,subject,description,priority,status,created_date,resolved_date,assigned_to
+T001,C100,Login Error,User cannot login,High,Resolved,2025-10-01,2025-10-02,Agent_A
+T002,C101,Slow Performance,App slow on load,Medium,In Progress,2025-10-05,,Agent_B
+T003,C102,Feature Request,Add export CSV,Low,Open,2025-09-20,,Agent_A
+T004,C103,Broken Page,Page crashes on submit,Critical,Resolved,2025-10-10,2025-10-12,Agent_C
+T005,C104,Bad Date,Invalid created_date,Low,Resolved,2025-13-01,2025-13-02,Agent_A
+T006,C105,Service Outage,Intermittent outage,Critical,Open,2025-11-01,,Agent_B
+T007,C106,Login Timeout,Login times out,High,Resolved,2025-10-15,2025-10-20,Agent_A
+T008,C107,Email Not Received,Welcome email delayed,Low,Open,2025-11-10,,Agent_D
+T009,C108,Permission Error,Permission denied error,Critical,Resolved,2025-08-01,2025-08-05,Agent_C
+T010,C109,Upgrade Request,Please upgrade plan,Low,Closed,2025-07-20,2025-07-22,Agent_B
+T011,C100,Login Error,User cannot login,High,Resolved,2025-11-01,2025-11-02,Agent_A
+T012,C110,Slow on mobile,Mobile sees slow load,Medium,In Progress,2025-11-05,,Agent_B
+T013,C111,Data Loss,Data not saving,Critical,Open,2025-08-15,,Agent_C
+T014,C112,Feature Request,Add dark mode,Low,Open,2025-11-04,,Agent_D
+T015,C113,Billing Issue,Invoice incorrect,High,In Progress,2025-11-03,,Agent_E
+T016,C114,Password Reset,Password link invalid,Medium,Resolved,2025-09-01,2025-09-02,Agent_F
+T017,C115,Integration Fault,Third-party API failing,High,Open,2025-10-22,,Agent_B
+T018,C116,Crash on Save,App crashes on save,Critical,Resolved,2025-09-12,2025-09-13,Agent_C
+T019,C117,Notification Delay,Notifications slow,Medium,Open,2025-11-01,,Agent_G
+T020,C118,UI Bug,Popover wrong position,Low,Resolved,2025-08-18,2025-08-19,Agent_H
+T021,C119,Payment Failed,Payment gateway failed,Critical,Open,2025-11-10,,Agent_E
+T022,C120,Slow Queries,Database queries slow,High,In Progress,2025-10-01,,Agent_B
+T023,C121,Feature Request,Add report export,Low,Open,2025-11-02,,Agent_D
+T024,C122,Login Error,Can't login on mobile,High,Closed,2025-09-10,2025-09-12,Agent_A
+T025,C123,Password Reset,No reset email,Medium,Open,2025-11-20,,Agent_F
+T026,C124,Analytics Crash,Analytics page crashes,Critical,Resolved,2025-10-05,2025-10-10,Agent_C
+T027,C125,Slow Upload,Upload times out,High,Open,2025-11-07,,Agent_B
+T028,C126,Data Corruption,Corrupt entries after update,Critical,In Progress,2025-11-08,,Agent_C
+T029,C127,Intermittent Outage,Service unavailable,High,Open,2025-11-09,,Agent_B
+T030,C123,Feature Request,Make UI customizable,Low,Closed,2025-07-30,2025-08-01,Agent_D
+T031,C128,Login Error,Facing login issues,High,Open,2025-11-01,,Agent_A
+T032,C129,Email Bounce,Emails bounced,Low,Resolved,2025-09-09,2025-09-10,Agent_D
+T033,C130,Password Reset,Token expired,Medium,Resolved,2025-09-11,2025-09-12,Agent_F
+T034,C131,Security Alert,User security concern,Critical,Open,2025-11-02,,Agent_C
+T035,C132,Feature Request,Add multi-lang support,Low,Open,2025-11-05,,Agent_D
+T036,C133,Performance Spike,High CPU usage,High,In Progress,2025-11-06,,Agent_B
+T037,C134,Timeout Error,Requests timeout,High,Resolved,2025-10-12,2025-10-14,Agent_B
+T038,C135,Storage Full,Uploads fail,High,Open,2025-11-03,,Agent_H
+T039,C136,Payment Duplicate,Double charged,High,Resolved,2025-08-05,2025-08-06,Agent_E
+T040,C137,Feature Request,Export chart,Low,In Progress,2025-10-20,,Agent_D
+T041,C138,Service Outage,Complete outage yesterday,Critical,Open,2025-11-08,,Agent_B
+T042,C139,Login Error,Password not accepted,High,Resolved,2025-10-11,2025-10-12,Agent_A
+T043,C140,Slow Sync,Sync takes too long,Medium,Open,2025-11-04,,Agent_G
+T044,C141,Password Reset,No email received,Medium,Open,2025-11-05,,Agent_F
+T045,C142,Database Error,Constraint violation,Critical,In Progress,2025-11-03,,Agent_C
+T046,C143,Feature Request,Add webhook support,Low,Open,2025-11-01,,Agent_D
+T047,C144,Intermittent Outage,Partial outage observed,High,Open,2025-11-07,,Agent_B
+T048,C145,Timeout Error,API times out,High,Resolved,2025-09-20,2025-09-22,Agent_B
+T049,C146,Billing Delay,Invoice delayed,Medium,Open,2025-11-06,,Agent_E
+T050,C147,Feature Request,Add user tags,Low,In Progress,2025-10-10,,Agent_D
+T051,C100,Login Error,Repeated login failure,High,In Progress,2025-11-02,,Agent_A
+T052,C100,Login Error,Unable to login on new device,High,Open,2025-11-03,,Agent_A
+T053,C100,Login Error,User locked out after attempts,High,Open,2025-11-04,,Agent_A
+T054,C100,Login Error,Account suspended,High,Resolved,2025-11-05,2025-11-06,Agent_A
+T055,C101,Slow Perform,Pages slow after update,High,In Progress,2025-11-02,,Agent_B
+T056,C101,Slow Performance,Report view slow,Medium,Open,2025-11-03,,Agent_B
+T057,C101,Slow Performance,Dashboard slow,Medium,Open,2025-11-04,,Agent_B
+T058,C101,Slow Performance,Mobile slow,Medium,Open,2025-11-05,,Agent_B
+T059,C101,Slow Performance,Slow again after fix,High,Open,2025-11-06,,Agent_B
+T060,C148,Outage,Site fully down,Critical,Resolved,2025-10-28,2025-10-29,Agent_B
