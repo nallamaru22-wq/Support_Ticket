@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Reports
+ticket_analysis_report_summary.json
+ticket_analysis_report_executive.txt
+weather_cache.json
